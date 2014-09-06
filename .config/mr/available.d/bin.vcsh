@@ -1,4 +1,7 @@
 [$HOME/.config/vcsh/repo.d/bin.git]
 checkout =
-	vcsh clone git@github.com:BiosTheoretikos/config.git bin
+	vcsh init bin
+	vcsh bin remote add origin git@github.com:BiosTheoretikos/config.git
+	vcsh bin fetch origin bin
 	vcsh bin checkout bin
+	

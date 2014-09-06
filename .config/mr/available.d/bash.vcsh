@@ -1,4 +1,7 @@
 [$HOME/.config/vcsh/repo.d/bash.git]
 checkout =
-	vcsh clone git@github.com:BiosTheoretikos/config.git bash
+	vcsh init bash
+	vcsh bash remote add origin git@github.com:BiosTheoretikos/config.git
+	vcsh bash fetch origin bash
 	vcsh bash checkout bash
+	

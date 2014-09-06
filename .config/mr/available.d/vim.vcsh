@@ -1,4 +1,7 @@
 [$HOME/.config/vcsh/repo.d/vim.git]
 checkout =
-	vcsh clone git@github.com:BiosTheoretikos/config.git vim
+	vcsh init vim
+	vcsh vim remote add origin git@github.com:BiosTheoretikos/config.git
+	vcsh vim fetch origin vim
 	vcsh vim checkout vim
+	
