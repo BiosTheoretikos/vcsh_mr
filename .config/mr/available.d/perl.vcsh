@@ -4,4 +4,3 @@ checkout =
 	vcsh perl remote add origin git@github.com:BiosTheoretikos/config.git
 	vcsh perl fetch origin perl
 	vcsh perl checkout perl
-	

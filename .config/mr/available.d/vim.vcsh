@@ -4,4 +4,3 @@ checkout =
 	vcsh vim remote add origin git@github.com:BiosTheoretikos/config.git
 	vcsh vim fetch origin vim
 	vcsh vim checkout vim
-	

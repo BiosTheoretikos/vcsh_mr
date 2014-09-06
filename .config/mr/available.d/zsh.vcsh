@@ -4,4 +4,3 @@ checkout =
 	vcsh zsh remote add origin git@github.com:BiosTheoretikos/config.git
 	vcsh zsh fetch origin zsh
 	vcsh zsh checkout zsh
-	
